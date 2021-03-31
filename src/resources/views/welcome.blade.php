@@ -4,8 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Web Online</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Dashboard</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
@@ -13,7 +12,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-image: url('img/background.jpg');
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -47,12 +46,13 @@
 
             .title {
                 font-size: 84px;
+                color:#ffffff;
             }
 
             .links > a {
-                color: #636b6f;
+                color: #ffffff;
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 20px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -71,7 +71,7 @@
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                        <a class="btn btn-success" href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('login') }}">Login</a>
 
                         @if (Route::has('register'))
                             <a href="{{ route('register') }}">Register</a>
@@ -82,9 +82,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Web Online
+                    Wellcome Dashboard
+                    
                 </div>
-
+                <img src="/img/logo.png" width="400px" alt="Image Dashboard">
                 <div class="links">
                 </div>
             </div>
