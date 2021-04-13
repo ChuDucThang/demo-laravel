@@ -9,8 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- ================= Favicon ================== -->
-    <link rel="icon" href="{{url('/')}}img/frontend.ico'"  />
-    <title>Nhang Bai Hai Phong</title>
+    <link rel="icon" href="{{url('/')}}/img/frontend.ico"  />
+    <title>Huơng Bài Cao Cấp</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap"
@@ -40,11 +40,8 @@
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
-                <li><a href="./index.html">TRANG CHU</a></li>
-                <li><a href="#">SAN PHAM</a></li>
-                <li><a href="#">TIN TUC</a></li>
-                <li><a href="#">LIEN HE</a></li>
-                <li class="dropdown"><a href="#">THONG TIN</a>
+                <li><a href="./index.html">TRANG CHỦ</a></li>
+                <li class="dropdown"><a href="#">SẢN PHẨM</a>
                     <ul class="dropdown__menu">
                         <li><a href="./categories-grid.html">SAN PHAM MOI</a></li>
                         <li><a href="./categories-list.html">TIN TUC MOI</a></li>
@@ -54,8 +51,9 @@
                         <li><a href="./typography.html">Typography</a></li>
                     </ul>
                 </li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="#">TIN TỨC</a></li>
+                <li><a href="#">LIÊN HỆ</a></li>
+                <li><a href="#">THÔNG TIN </a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
